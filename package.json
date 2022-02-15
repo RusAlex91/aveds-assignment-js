@@ -1,0 +1,21 @@
+{
+  "name": "aveds-assignment",
+  "description": "Инструкции по запуску:",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "http-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RusAlex91/aveds-assignment-js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RusAlex91/aveds-assignment-js/issues"
+  },
+  "homepage": "https://github.com/RusAlex91/aveds-assignment-js#readme"
+}

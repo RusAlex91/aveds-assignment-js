@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/reset.css" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <title>Healthcare</title>
+  </head>
+  <body>
+    <header>
+      <img src="assets/images/logo.png" alt="" class="company-logo" />
+      <ul>
+        <li>
+          <a href=" /contacts" onclick="route()" class="contacts-header"
+            >Контакты</a
+          >
+        </li>
+        <li><button type="button" class="login-header">Войти</button></li>
+      </ul>
+    </header>
+    <main id="main"></main>
+    <div class="modal">
+      <form class="login">
+        <fieldset>
+          <legend class="legend">Вход</legend>
+
+          <div class="input">
+            <input id="loginInput" type="text" placeholder="Логин" required />
+          </div>
+
+          <div class="password-input-wrapper">
+            <input
+              id="passwordInput"
+              type="password"
+              placeholder="Пароль"
+              required
+            />
+            <span class="password-error-msg"></span>
+          </div>
+
+          <button type="button" class="modal-submit-button">
+            Войти
+          </button>
+        </fieldset>
+      </form>
+      <button class="close-modal">X</button>
+    </div>
+    <script src="/scripts/router.js"></script>
+    <script src="/scripts/script.js"></script>
+  </body>
+</html>
